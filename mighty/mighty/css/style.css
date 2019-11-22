@@ -422,6 +422,10 @@ h1, h2, h3, h4, h5,
   .ul-check.primary li:before {
     color: #01d28e; }
 
+.icon-color-primary {
+  color: #01d28e;
+}
+
 .select-wrap, .wrap-icon {
   position: relative; }
   .select-wrap .icon, .wrap-icon .icon {
