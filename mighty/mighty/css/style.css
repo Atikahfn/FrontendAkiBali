@@ -187,7 +187,7 @@ html {
     color: #fff; }
 
 .primary-dark--hover {
-  background: #01d28e;
+  background: #cccc;
   color: #fff; }
   .primary-dark--hover:hover {
     background: gray;
@@ -1574,6 +1574,16 @@ h1, h2, h3, h4, h5,
   .hair-style .place p {
     font-size: 13px;
     color: #ccc; }
+
+.img {
+    position: relative;
+    float: left;
+    width:  360px;
+    height: 250px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}s
 
 .img-years {
   position: relative;
