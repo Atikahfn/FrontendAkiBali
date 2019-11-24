@@ -422,10 +422,6 @@ h1, h2, h3, h4, h5,
   .ul-check.primary li:before {
     color: #01d28e; }
 
-.icon-color-primary {
-  color: #01d28e;
-}
-
 .select-wrap, .wrap-icon {
   position: relative; }
   .select-wrap .icon, .wrap-icon .icon {
@@ -1833,3 +1829,34 @@ h1, h2, h3, h4, h5,
 .person-pic-39219 img {
   border-radius: 50%;
   width: 70px; }
+
+
+/*Product*/
+.img-card{
+  width: 100%;
+}
+.uk-card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+}
+.card-container {
+  padding: 20px;
+  background: #fff;
+}
+.card-title {
+  font-size: 18px;
+  color:#000;
+  }
+
+.card-price {
+  font-size: 15px;
+  color:red;
+  margin-bottom: -5px;
+}
+.card-tag {
+  font-size: 13px;
+  margin-top: -15px;
+  margin-bottom: 8px;
+  color:rgba(0, 0, 0, 0.4);
+}
