@@ -1834,14 +1834,17 @@ h1, h2, h3, h4, h5,
 /*Product*/
 .img-card{
   width: 100%;
+  height: 15vw;
+  object-fit: cover;
 }
 .uk-card {
+  border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 100%;
 }
 .card-container {
-  padding: 20px;
+  padding: 15px;
   background: #fff;
 }
 .card-title {
@@ -1859,4 +1862,54 @@ h1, h2, h3, h4, h5,
   margin-top: -15px;
   margin-bottom: 8px;
   color:rgba(0, 0, 0, 0.4);
+}
+.card-merk {
+  font-size: 13px;
+  margin-top: -15px;
+  margin-bottom: 8px;
+  color:rgba(0, 0, 0, 0.4);
+}
+
+/*Product Detail*/
+.img-card-detail{
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
+}
+.uk-card-detail {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 80%;
+}
+.card-container {
+  padding: 15px;
+  background: #fff;
+}
+.card-title {
+  font-size: 18px;
+  color:#000;
+  }
+
+.card-price {
+  font-size: 15px;
+  color:red;
+  margin-bottom: -5px;
+}
+.card-tag {
+  font-size: 13px;
+  margin-top: -15px;
+  margin-bottom: 8px;
+  color:rgba(0, 0, 0, 0.4);
+}
+.card-merk {
+  font-size: 13px;
+  margin-top: -15px;
+  margin-bottom: 8px;
+  color:rgba(0, 0, 0, 0.4);
+}
+.card-isi {
+  font-size: 15px;
+  margin-bottom: 8px;
+  color: #000;
 }
