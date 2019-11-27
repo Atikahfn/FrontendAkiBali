@@ -258,6 +258,11 @@ h1, h2, h3, h4, h5,
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none; }
+  .btn.btn-outline-none{
+    border: none;
+    background: transparent;
+    color: white;
+  }
   .btn.btn-outline-white {
     border-color: #fff;
     background: transparent;
@@ -1913,3 +1918,48 @@ h1, h2, h3, h4, h5,
   margin-bottom: 8px;
   color: #000;
 }
+
+.menu {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  font-size: 17px;
+}
+
+.menu-item{
+  display: inline; 
+  position: relative; 
+  padding: 14px 16px;
+}
+
+.menu-item a{
+  color: white;
+}
+
+.menu-item:hover{
+  background-color: gray;
+  border-radius: 10px;
+}
+
+.menu-item.current{
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.menu-item.current a{
+  color: white;
+}
+.topbar{
+  display: none;
+}
+
+            
+@media screen and (max-width: 990px) {
+  .topnav .menu-item {
+    display: none;
+    position: relative;
+  }
+  .topbar{
+    display: block;
+  }
+}         
