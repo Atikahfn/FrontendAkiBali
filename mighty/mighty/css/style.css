@@ -1874,6 +1874,13 @@ h1, h2, h3, h4, h5,
   margin-bottom: 8px;
   color:rgba(0, 0, 0, 0.4);
 }
+.card-menu {
+  font-size: 15px;
+  color:white;
+  background-color: #353535;
+  border-radius: 15px;
+  padding: 5px;
+}
 
 /*Product Detail*/
 .img-card-detail{
@@ -1918,6 +1925,7 @@ h1, h2, h3, h4, h5,
   margin-bottom: 8px;
   color: #000;
 }
+
 
 .menu {
   list-style-type: none;
