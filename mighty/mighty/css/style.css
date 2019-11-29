@@ -297,11 +297,11 @@ h1, h2, h3, h4, h5,
     padding: 4em 0; }
 
 .site-footer {
-  padding: 4em 0;
+  padding:  0;
   background: #efefef; }
   @media (min-width: 768px) {
     .site-footer {
-      padding: 8em 0; } }
+      padding:  0; } }
   .site-footer .border-top {
     border-top: 1px solid rgba(255, 255, 255, 0.1) !important; }
   .site-footer p {
@@ -313,7 +313,8 @@ h1, h2, h3, h4, h5,
     .site-footer a:hover {
       color: #000; }
   .site-footer ul li {
-    margin-bottom: 10px; }
+    /* margin-bottom: 10px;  */
+  }
   .site-footer .footer-heading {
     font-size: 16px;
     color: #000; }
@@ -1930,7 +1931,6 @@ h1, h2, h3, h4, h5,
   color: #000;
 }
 
-
 .menu {
   list-style-type: none;
   text-align: center;
@@ -1941,30 +1941,12 @@ h1, h2, h3, h4, h5,
 .menu-item{
   display: inline; 
   position: relative; 
-  padding: 14px 16px;
+  /* padding: 14px 16px; */
 }
 
-.menu-item a{
-  color: white;
-}
-
-.menu-item:hover{
-  background-color: gray;
-  border-radius: 10px;
-}
-
-.menu-item.current{
-  border-radius: 10px;
-  border: 1px solid #ccc;
-}
-
-.menu-item.current a{
-  color: white;
-}
 .topbar{
   display: none;
 }
-
             
 @media screen and (max-width: 990px) {
   .topnav .menu-item {
@@ -1974,4 +1956,51 @@ h1, h2, h3, h4, h5,
   .topbar{
     display: block;
   }
-}         
+}
+
+
+.btn-navi {
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+  /* font-weight: bold;  */
+}
+  .btn-navi:active, .btn-navi:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; 
+  }
+  .btn-navi.btn-navi-outline-none{
+    border: none;
+    background: transparent;
+    color: white;}
+    .btn-navi.btn-navi-outline-none.current{
+      background: transparent;
+      color: white;
+      border: 1px solid #ccc;}
+    .btn-navi.btn-navi-outline-none:hover {
+      background: gray;
+      border-color: #fff;
+      border-width: 1px;
+      color: #fff; }
+  .btn-navi.btn-navi-outline-black{
+    border: none;
+    background: transparent;
+    color: #000;}
+    .btn-navi.btn-navi-outline-black.current{
+      background: transparent;
+      color: #000;
+      border: 1px solid #000;}
+    .btn-navi.btn-navi-outline-black:hover {
+      background: gray;
+      border-color: #000;
+      border-width: 1px;
+      color: #fff; }
+  .btn-navi.btn-navi-outline-white {
+    border-color: #fff;
+    background: transparent;
+    color: #fff; }
+    .btn-navi.btn-navi-outline-white:hover {
+      background: #fff;
+      border-color: #fff;
+      color: #000; }
