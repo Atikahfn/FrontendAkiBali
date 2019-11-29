@@ -1841,6 +1841,7 @@ h1, h2, h3, h4, h5,
   width: 100%;
   height: 15vw;
   object-fit: cover;
+  border-radius: 10px;
 }
 .uk-card {
   border-radius: 15px;
@@ -1885,14 +1886,17 @@ h1, h2, h3, h4, h5,
 /*Product Detail*/
 .img-card-detail{
   width: 100%;
-  height: 20vw;
+  height: 25vw;
   object-fit: cover;
+  border-radius: 10px ;
 }
 .uk-card-detail {
   border-radius: 15px;
+  padding: 20px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 80%;
+  width: 100%;
+  height: 100%;
 }
 .card-container {
   padding: 15px;
