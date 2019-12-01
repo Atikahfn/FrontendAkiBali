@@ -1844,6 +1844,14 @@ h1, h2, h3, h4, h5,
   object-fit: cover;
   border-radius: 10px;
 }
+.img-card-next{
+  width: 60%;
+  height: 10w;
+  object-fit: cover;
+  border-radius: 10px;
+  padding-top: 70px;
+  padding-left: 30px;
+}
 .uk-card {
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -1886,28 +1894,26 @@ h1, h2, h3, h4, h5,
 
 /*Product Detail*/
 .img-card-detail{
-  width: 100%;
-  height: 25vw;
-  object-fit: cover;
-  border-radius: 10px ;
+  width: 50%;
+  max-width: 20px;
+  height: 50%;
+  border-radius: 10px;
 }
 .uk-card-detail {
   border-radius: 15px;
-  padding: 20px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 100%;
-  height: 100%;
 }
-.card-container {
+.card-container-detail {
+  width: 100%;
   padding: 15px;
   background: #fff;
 }
 .card-title {
   font-size: 18px;
   color:#000;
-  }
-
+}
 .card-price {
   font-size: 15px;
   color:red;
