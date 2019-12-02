@@ -1937,6 +1937,34 @@ h1, h2, h3, h4, h5,
   color: #000;
 }
 
+/*Product Kategori*/
+.container-kategori {
+  padding: 50px 102px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 20% 80%;
+}
+.card-body-kategori {
+  padding: 30px 30px;
+}
+.card-kategori {
+  position: relative;
+  box-sizing: border-box;
+}
+.container-kategori .uk-card .img-card .card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+.uk-accordion {
+  padding: 0;
+  list-style: none;
+}
+.uk-padding-small {
+  padding: 15px;
+}
+
+
 .menu {
   list-style-type: none;
   text-align: center;
