@@ -315,6 +315,9 @@ h1, h2, h3, h4, h5,
   .site-footer .footer-heading {
     font-size: 16px;
     color: #000; }
+  .site-footer .p{
+    align-content: center;
+  }
 
 .bg-text-line {
   display: inline;
@@ -465,6 +468,8 @@ h1, h2, h3, h4, h5,
     font-size: 1.7rem; }
     .site-navbar .site-logo a {
       color: #fff; }
+    .site-navbar .site-logo.black a {
+      color: #000; }
     @media (max-width: 991.98px) {
       .site-navbar .site-logo {
         float: left;
@@ -1890,6 +1895,36 @@ h1, h2, h3, h4, h5,
   min-height: 200px; 
   max-height: 300px; 
 }
+.card-info{
+  padding: 40px;
+}
+  .card-info .card-title {
+    font-size: 25px;
+    color:#000;
+  }
+  .card-info .card-merk{
+    font-size: 19px;
+    margin-top: -15px;
+    margin-bottom: 8px;
+    color:rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+    margin-left: 0; 
+    padding-left: 0;
+  }
+  .card-info .d-flex .card-tag{
+    font-size: 17px;
+    margin-top: -15px;
+    margin-bottom: 8px;
+    color:black;
+    font-weight: bold;
+    padding-left: 10px;border: none;padding-top: 10px;
+  }
+  .card-info .card-price {
+    font-size: 20px;
+    color:red;
+    margin-bottom: -5px;
+    font-weight: bold;
+  }
 .card-container-detail {
   width: 100%;
   padding: 15px;
@@ -1927,7 +1962,7 @@ h1, h2, h3, h4, h5,
 .card-isi {
   font-size: 20px;
   margin-bottom: 8px;
-  color: #000;
+  color: gray;
 }
 
 /*Product Kategori*/
@@ -1975,6 +2010,11 @@ h1, h2, h3, h4, h5,
   padding: 0; margin: 0;
   display: none;
 }
+.topbar.black{
+  padding: 0; margin: 0;
+  color: #000;
+  display: none;
+}
 
 .topnav{
   padding: 0; margin: 0;
@@ -1986,6 +2026,10 @@ h1, h2, h3, h4, h5,
     position: relative;
   }
   .topbar{
+    display: block;
+  }
+  .topbar.black{
+    color: #000;
     display: block;
   }
   .martop{
@@ -2043,4 +2087,7 @@ h1, h2, h3, h4, h5,
 .breadcrumb{
 background-color: #fff;
 padding-bottom: 0;
+}
+.icon-green{
+  color: #01d28e;
 }
