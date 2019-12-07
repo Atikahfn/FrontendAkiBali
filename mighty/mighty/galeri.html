@@ -18,6 +18,9 @@
       <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
       <link rel="stylesheet" href="css/aos.css">
 
+      <!-- UIkit CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.4/dist/css/uikit.min.css" />
+
       <!-- MAIN CSS -->
       <link rel="stylesheet" href="css/style.css">
 
@@ -52,7 +55,7 @@
                   <ul class="menu text-right">
                     <li class="menu-item"><a class="btn-navi btn-navi-primary btn-navi-outline-black py-3 px-4" href="index.html">Beranda</a></li>
                     <li class="menu-item"><a class="btn-navi btn-navi-primary btn-navi-outline-black py-3 px-3" href="produk.html">Produk</a></li>
-                    <li class="menu-item"><a class="btn-navi btn-navi-primary btn-navi-outline-black current py-3 px-3" href="work.html">Galeri</a></li>
+                    <li class="menu-item"><a class="btn-navi btn-navi-primary btn-navi-outline-black current py-3 px-3" href="galeri.html">Galeri</a></li>
                     <li class="menu-item"><a class="btn-navi btn-navi-primary btn-navi-outline-black py-3 px-3" href="kontak.html">Kontak</a></li>
                   </ul>
                 </div>
@@ -63,7 +66,7 @@
                     <ul class="site-menu main-menu js-clone-nav ml-auto ">
                     <li><a href="index.html" class="nav-link">Beranda</a></li>
                     <li><a href="produk.html" class="nav-link">Produk</a></li>
-                    <li class="active"><a href="work.html" class="nav-link">Galeri</a></li>
+                    <li class="active"><a href="galeri.html" class="nav-link">Galeri</a></li>
                     <li><a href="kontak.html" class="nav-link">Kontak</a></li>
                     </ul>
                   </nav>
@@ -83,10 +86,32 @@
             </div>
           </div>
 
+          <!-- <div class="row">
+          <div class="col-md-12">
+              <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
+
+                  <ul class="uk-slideshow-items">
+                      <li>
+                          <img src="images/vs2.jpg" alt="" uk-cover>
+                      </li>
+                      <li>
+                          <img src="images/vs.jpg" alt="" uk-cover>
+                      </li>
+                      <li>
+                          <img src="images/ns1.jpg" alt="" uk-cover>
+                      </li>
+                  </ul>
+              
+                  <a class="uk-position-center-left uk-position-small uk-hidden-hover" style="color: red;" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                  <a class="uk-position-center-right uk-position-small uk-hidden-hover" style="color: red;" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+                </div>
+              </div>
+          </div> -->
+
           <div class="row">
             <div class="col-md-6 col-lg-4 mb-4">
               <div class="item web">
-                <a href="work-slider.html" src="images/Gforce1.jpg" class="item-wrap">
+                <a href="images/Gforce1.jpg" class="item-wrap" data-fancybox="gal">
                   <span class=""></span>
                   <img class="img" src="images/Gforce1.jpg">
                 </a>
@@ -95,7 +120,7 @@
 
             <div class="col-md-6 col-lg-4 mb-4">
               <div class="item web">
-                <a href="work-single.html" class="item-wrap" data-fancybox="gal">
+                <a href="images/GS2.jpg" class="item-wrap" data-fancybox="gal">
                   <span class=""></span>
                   <img class="img" src="images/GS2.jpg">
                 </a>
@@ -104,7 +129,7 @@
 
             <div class="col-md-6 col-lg-4 mb-4">
               <div class="item web">
-                <a href="work-single.html" class="item-wrap" data-fancybox="gal">
+                <a href="images/vs.jpg" class="item-wrap" data-fancybox="gal">
                   <span class=""></span>
                   <img class="img" src="images/vs.jpg">
                 </a>
@@ -113,7 +138,7 @@
 
             <div class="col-md-6 col-lg-4 mb-4">
               <div class="item web">
-                <a href="work-single.html" class="item-wrap" data-fancybox="gal">
+                <a href="images/yuasa1.jpg" class="item-wrap" data-fancybox="gal">
                   <span class=""></span>
                   <img class="img" src="images/yuasa1.jpg">
                 </a>
@@ -122,7 +147,7 @@
 
             <div class="col-md-6 col-lg-4 mb-4">
               <div class="item web">
-                <a href="work-single.html" class="item-wrap" data-fancybox="gal">
+                <a href="images/ns1.jpg" class="item-wrap" data-fancybox="gal">
                   <span class=""></span>
                   <img class="img" src="images/ns1.jpg">
                 </a>
@@ -131,7 +156,7 @@
 
             <div class="col-md-6 col-lg-4 mb-4">
               <div class="item web">
-                <a href="work-single.html" class="item-wrap" data-fancybox="gal">
+                <a href="images/incoe.jpg" class="item-wrap" data-fancybox="gal">
                   <span class=""></span>
                   <img class="img" src="images/incoe.jpg">
                 </a>
@@ -144,109 +169,16 @@
         </div>
       </div> <!-- END .site-section -->
 
-      <div class="site-section bg-light">
-        <div class="container">
-
-          <div class="row mb-5">
-            <div class="col-md-7 mx-auto text-center">
-              <h2 class="heading-29190">Testimonials</h2>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-4 col-md-6">
-              
-              <div>
-                <div class="person-pic-39219 mb-4">
-                  <img src="images/person_1.jpg" alt="Image" class="img-fluid">
-                </div>  
-                
-                <blockquote class="quote_39823">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas excepturi accusantium non aut perspiciatis nisi magni libero, molestias.</p>
-                </blockquote>
-                <p>&mdash; Chris Smith</p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              
-              
-              <div>
-                <div class="person-pic-39219 mb-4">
-                  <img src="images/person_2.jpg" alt="Image" class="img-fluid">
-                </div>  
-                <blockquote class="quote_39823">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas excepturi accusantium non aut perspiciatis nisi magni libero, molestias.</p>
-                </blockquote>
-                <p>&mdash; Chris Smith</p>
-              </div>
-
-            </div>
-            <div class="col-lg-4 col-md-6">
-              
-              <div>
-                <div class="person-pic-39219 mb-4">
-                  <img src="images/person_3.jpg" alt="Image" class="img-fluid">
-                </div>  
-                <blockquote class="quote_39823">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas excepturi accusantium non aut perspiciatis nisi magni libero, molestias.</p>
-                </blockquote>
-                <p>&mdash; Chris Smith</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-
       <footer class="site-footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3">
-              <h2 class="footer-heading mb-3">About Me</h2>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-            </div>
-            <div class="col-lg-8 ml-auto">
-              <div class="row">
-                <div class="col-lg-6 ml-auto">
-                  <h2 class="footer-heading mb-4">Quick Links</h2>
-                  <ul class="list-unstyled">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Testimonials</a></li>
-                    <li><a href="#">Terms of Service</a></li>
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                  </ul>
-                </div>
-                <div class="col-lg-6">
-                  <h2 class="footer-heading mb-4">Connect</h2>
-                  <div class="social_29128 white mb-5">
-                    <a href="#"><span class="icon-facebook"></span></a>  
-                    <a href="#"><span class="icon-instagram"></span></a>  
-                    <a href="#"><span class="icon-twitter"></span></a>  
-                  </div>
-                  <h2 class="footer-heading mb-4">Newsletter</h2>
-                  <form action="#" class="d-flex" class="subscribe">
-                    <input type="text" class="form-control mr-3" placeholder="Email">
-                    <input type="submit" value="Send" class="btn btn-primary">
-                  </form>
-                </div>
-                
+          <div class="row mt-5 align-items-center justify-content-center text-center">
+              <div class="col-md-12">
+                  <p style="align-content: center;">
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script> AKI 24 Jam Bali
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </p>
               </div>
             </div>
-          </div>
-          <div class="row pt-5 mt-5 text-center">
-            <div class="col-md-12">
-              <div class="border-top pt-5">
-                <p>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-              Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-              </p>
-              </div>
-            </div>
-
-          </div>
-        </div>
       </footer>
 
       </div>
@@ -265,6 +197,9 @@
       <script src="js/bootstrap-datepicker.min.js"></script>
       <script src="js/isotope.pkgd.min.js"></script>
       <script src="js/aos.js"></script>
+      <!-- UIkit JS -->
+      <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.4/dist/js/uikit.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.4/dist/js/uikit-icons.min.js"></script>
 
       <script src="js/main.js"></script>
 
