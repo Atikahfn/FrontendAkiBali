@@ -1991,6 +1991,9 @@ h1, h2, h3, h4, h5,
 .uk-padding-small {
   padding: 15px;
 }
+.uk-accordion-title::after{
+  color: crimson;
+}
 
 
 .menu {
