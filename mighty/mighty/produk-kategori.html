@@ -75,21 +75,30 @@
         </div>
       </header>
 
+      <style>
+        .category-card{
+          min-width: min-content;
+          padding: 20px;
+          background-color: #fff;
+          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+          min-height: 200px;
+        }
+      </style>
   <!-- Tabel Kategori-->
   <div class="container martop">
   <div class="row col-md-12">
-      <div class="site-section col-md-3">
+      <div class="site-section col-md-4">
         <div class="container mb-4">
-          <div class="category-card" style="padding: 20px; background-color: #fff;  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); min-height: 200px;">
+          <div class="category-card" style="min-width: min-content; padding: 20px; background-color: #fff;  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); min-height: 200px;">
             <h4><strong>Kategori</strong></h4>  
             <ul uk-accordion>
               <li class="uk-open">
-                  <a class="uk-accordion-title" href="#">Mobil</a>
+                  <a class="uk-accordion-title" style="color: #01d28e;" href="#">Mobil</a>
                   <div class="uk-accordion-content">
                     <ul style="list-style: none;">
                       <li><a>Yuasa</a></li>
                       <li><a>Gefoce</a></li>
-                      <li><a<>Incoe</a></li>
+                      <li><a>Incoe</a></li>
                     </ul>
                   </div>
               </li>
@@ -129,7 +138,7 @@
       </div>
       
   <!--Kategori Mobil-->
-    <div class="site-section col-md-9">
+    <div class="site-section col-md-8">
       <div class="container mb-4">
         <div class="col-md-12">
           <div class="row animated zoomIn">
