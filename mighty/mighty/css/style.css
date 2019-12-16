@@ -1849,6 +1849,7 @@ h1, h2, h3, h4, h5,
   height: 15vw;
   object-fit: cover;
   border-radius: 10px;
+  min-height: 150px;
 }
 .img-card-next{
   width: 60%;
